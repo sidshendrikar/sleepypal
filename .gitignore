@@ -1,1 +1,13 @@
+# Large datasets (CHB-MIT / Siena EEG, downloaded from PhysioNet)
 data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+
+# Derived caches (regenerable); keep figures + result JSON
+*_dataset.npz

@@ -1,0 +1,493 @@
+{
+  "patients": [
+    "chb01",
+    "chb03"
+  ],
+  "n_recordings": 14,
+  "n_seizures": 14,
+  "mean_thr-train": {
+    "epoch": {
+      "auc": 0.9554091087895157,
+      "sensitivity": 0.6368715083798883,
+      "specificity": 0.9767519652115738,
+      "precision": 0.4505928853754941,
+      "tp": 114,
+      "fp": 139,
+      "tn": 5840,
+      "fn": 65,
+      "f1": 0.5277777777777779
+    },
+    "three_class": {
+      "accuracy": 0.6859369925300423,
+      "confusion_matrix": [
+        [
+          3839,
+          106,
+          1205
+        ],
+        [
+          34,
+          134,
+          11
+        ],
+        [
+          570,
+          8,
+          251
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.7454368932038835,
+        "ictal": 0.7486033519553073,
+        "preictal": 0.3027744270205066
+      },
+      "macro_f1": 0.548883683013717
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 0.9285714285714286,
+      "n_seizures": 14,
+      "detected": 13,
+      "false_alarms": 19,
+      "hours": 13.205555555555557,
+      "far_per_hour": 1.4387883887252837,
+      "median_latency_s": 5.0
+    }
+  },
+  "multi_thr-train": {
+    "epoch": {
+      "auc": 0.9575983353282111,
+      "sensitivity": 0.6871508379888268,
+      "specificity": 0.9944806823883593,
+      "precision": 0.7884615384615384,
+      "tp": 123,
+      "fp": 33,
+      "tn": 5946,
+      "fn": 56,
+      "f1": 0.7343283582089553
+    },
+    "three_class": {
+      "accuracy": 0.6908087041247158,
+      "confusion_matrix": [
+        [
+          3981,
+          47,
+          1122
+        ],
+        [
+          33,
+          135,
+          11
+        ],
+        [
+          688,
+          3,
+          138
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.7730097087378641,
+        "ictal": 0.7541899441340782,
+        "preictal": 0.16646562123039807
+      },
+      "macro_f1": 0.5604491975746544
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 0.8571428571428571,
+      "n_seizures": 14,
+      "detected": 12,
+      "false_alarms": 7,
+      "hours": 13.205555555555557,
+      "far_per_hour": 0.5300799326882625,
+      "median_latency_s": 6.5
+    }
+  },
+  "ensemble_thr-train": {
+    "epoch": {
+      "auc": 0.9786066876525941,
+      "sensitivity": 0.6145251396648045,
+      "specificity": 0.9943134303395217,
+      "precision": 0.7638888888888888,
+      "tp": 110,
+      "fp": 34,
+      "tn": 5945,
+      "fn": 69,
+      "f1": 0.6811145510835912
+    },
+    "three_class": {
+      "accuracy": 0.715492042871062,
+      "confusion_matrix": [
+        [
+          4139,
+          63,
+          948
+        ],
+        [
+          31,
+          141,
+          7
+        ],
+        [
+          697,
+          6,
+          126
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.8036893203883495,
+        "ictal": 0.7877094972067039,
+        "preictal": 0.1519903498190591
+      },
+      "macro_f1": 0.5610893445682016
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 0.8571428571428571,
+      "n_seizures": 14,
+      "detected": 12,
+      "false_alarms": 8,
+      "hours": 13.205555555555557,
+      "far_per_hour": 0.6058056373580142,
+      "median_latency_s": 9.0
+    }
+  },
+  "mean_thr-loo": {
+    "epoch": {
+      "auc": 0.9554091087895157,
+      "sensitivity": 0.888268156424581,
+      "specificity": 0.9170429837765512,
+      "precision": 0.24274809160305344,
+      "tp": 159,
+      "fp": 496,
+      "tn": 5483,
+      "fn": 20,
+      "f1": 0.38129496402877694
+    },
+    "three_class": {
+      "accuracy": 0.6859369925300423,
+      "confusion_matrix": [
+        [
+          3839,
+          106,
+          1205
+        ],
+        [
+          34,
+          134,
+          11
+        ],
+        [
+          570,
+          8,
+          251
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.7454368932038835,
+        "ictal": 0.7486033519553073,
+        "preictal": 0.3027744270205066
+      },
+      "macro_f1": 0.548883683013717
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 0.9285714285714286,
+      "n_seizures": 14,
+      "detected": 13,
+      "false_alarms": 66,
+      "hours": 13.205555555555557,
+      "far_per_hour": 4.997896508203617,
+      "median_latency_s": -1.0
+    }
+  },
+  "multi_thr-loo": {
+    "epoch": {
+      "auc": 0.9575983353282111,
+      "sensitivity": 0.88268156424581,
+      "specificity": 0.9466465964208062,
+      "precision": 0.3312368972746331,
+      "tp": 158,
+      "fp": 319,
+      "tn": 5660,
+      "fn": 21,
+      "f1": 0.4817073170731707
+    },
+    "three_class": {
+      "accuracy": 0.6908087041247158,
+      "confusion_matrix": [
+        [
+          3981,
+          47,
+          1122
+        ],
+        [
+          33,
+          135,
+          11
+        ],
+        [
+          688,
+          3,
+          138
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.7730097087378641,
+        "ictal": 0.7541899441340782,
+        "preictal": 0.16646562123039807
+      },
+      "macro_f1": 0.5604491975746544
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 1.0,
+      "n_seizures": 14,
+      "detected": 14,
+      "false_alarms": 54,
+      "hours": 13.205555555555557,
+      "far_per_hour": 4.0891880521665955,
+      "median_latency_s": -0.5
+    }
+  },
+  "ensemble_thr-loo": {
+    "epoch": {
+      "auc": 0.9786066876525941,
+      "sensitivity": 0.8938547486033519,
+      "specificity": 0.9533366783743101,
+      "precision": 0.36446469248291574,
+      "tp": 160,
+      "fp": 279,
+      "tn": 5700,
+      "fn": 19,
+      "f1": 0.5177993527508091
+    },
+    "three_class": {
+      "accuracy": 0.715492042871062,
+      "confusion_matrix": [
+        [
+          4139,
+          63,
+          948
+        ],
+        [
+          31,
+          141,
+          7
+        ],
+        [
+          697,
+          6,
+          126
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.8036893203883495,
+        "ictal": 0.7877094972067039,
+        "preictal": 0.1519903498190591
+      },
+      "macro_f1": 0.5610893445682016
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 1.0,
+      "n_seizures": 14,
+      "detected": 14,
+      "false_alarms": 47,
+      "hours": 13.205555555555557,
+      "far_per_hour": 3.5591081194783336,
+      "median_latency_s": -0.5
+    }
+  },
+  "sweep": [
+    {
+      "target_sens": 0.6,
+      "k_persist": 1,
+      "epoch_sensitivity": 0.6089385474860335,
+      "specificity": 0.9971567151697608,
+      "seizure_sensitivity": 0.9285714285714286,
+      "far_per_hour": 1.1358855700462767,
+      "median_latency_s": 8.0
+    },
+    {
+      "target_sens": 0.6,
+      "k_persist": 2,
+      "epoch_sensitivity": 0.6089385474860335,
+      "specificity": 0.9971567151697608,
+      "seizure_sensitivity": 0.8571428571428571,
+      "far_per_hour": 0.22717711400925533,
+      "median_latency_s": 9.5
+    },
+    {
+      "target_sens": 0.6,
+      "k_persist": 3,
+      "epoch_sensitivity": 0.6089385474860335,
+      "specificity": 0.9971567151697608,
+      "seizure_sensitivity": 0.8571428571428571,
+      "far_per_hour": 0.07572570466975177,
+      "median_latency_s": 13.0
+    },
+    {
+      "target_sens": 0.6,
+      "k_persist": 4,
+      "epoch_sensitivity": 0.6089385474860335,
+      "specificity": 0.9971567151697608,
+      "seizure_sensitivity": 0.7142857142857143,
+      "far_per_hour": 0.0,
+      "median_latency_s": 13.0
+    },
+    {
+      "target_sens": 0.7,
+      "k_persist": 1,
+      "epoch_sensitivity": 0.7039106145251397,
+      "specificity": 0.9951496905837096,
+      "seizure_sensitivity": 0.9285714285714286,
+      "far_per_hour": 1.665965502734539,
+      "median_latency_s": 4.0
+    },
+    {
+      "target_sens": 0.7,
+      "k_persist": 2,
+      "epoch_sensitivity": 0.7039106145251397,
+      "specificity": 0.9951496905837096,
+      "seizure_sensitivity": 0.8571428571428571,
+      "far_per_hour": 0.22717711400925533,
+      "median_latency_s": 4.5
+    },
+    {
+      "target_sens": 0.7,
+      "k_persist": 3,
+      "epoch_sensitivity": 0.7039106145251397,
+      "specificity": 0.9951496905837096,
+      "seizure_sensitivity": 0.8571428571428571,
+      "far_per_hour": 0.07572570466975177,
+      "median_latency_s": 4.5
+    },
+    {
+      "target_sens": 0.7,
+      "k_persist": 4,
+      "epoch_sensitivity": 0.7039106145251397,
+      "specificity": 0.9951496905837096,
+      "seizure_sensitivity": 0.7857142857142857,
+      "far_per_hour": 0.07572570466975177,
+      "median_latency_s": 4.0
+    },
+    {
+      "target_sens": 0.8,
+      "k_persist": 1,
+      "epoch_sensitivity": 0.7877094972067039,
+      "specificity": 0.9857835758488042,
+      "seizure_sensitivity": 0.9285714285714286,
+      "far_per_hour": 4.316365166175851,
+      "median_latency_s": 3.0
+    },
+    {
+      "target_sens": 0.8,
+      "k_persist": 2,
+      "epoch_sensitivity": 0.7877094972067039,
+      "specificity": 0.9857835758488042,
+      "seizure_sensitivity": 0.9285714285714286,
+      "far_per_hour": 1.060159865376525,
+      "median_latency_s": 3.0
+    },
+    {
+      "target_sens": 0.8,
+      "k_persist": 3,
+      "epoch_sensitivity": 0.7877094972067039,
+      "specificity": 0.9857835758488042,
+      "seizure_sensitivity": 0.9285714285714286,
+      "far_per_hour": 0.45435422801851066,
+      "median_latency_s": 3.0
+    },
+    {
+      "target_sens": 0.8,
+      "k_persist": 4,
+      "epoch_sensitivity": 0.7877094972067039,
+      "specificity": 0.9857835758488042,
+      "seizure_sensitivity": 0.9285714285714286,
+      "far_per_hour": 0.22717711400925533,
+      "median_latency_s": 3.0
+    },
+    {
+      "target_sens": 0.9,
+      "k_persist": 1,
+      "epoch_sensitivity": 0.8938547486033519,
+      "specificity": 0.9533366783743101,
+      "seizure_sensitivity": 1.0,
+      "far_per_hour": 10.828775767774504,
+      "median_latency_s": -0.5
+    },
+    {
+      "target_sens": 0.9,
+      "k_persist": 2,
+      "epoch_sensitivity": 0.8938547486033519,
+      "specificity": 0.9533366783743101,
+      "seizure_sensitivity": 1.0,
+      "far_per_hour": 3.5591081194783336,
+      "median_latency_s": -0.5
+    },
+    {
+      "target_sens": 0.9,
+      "k_persist": 3,
+      "epoch_sensitivity": 0.8938547486033519,
+      "specificity": 0.9533366783743101,
+      "seizure_sensitivity": 0.9285714285714286,
+      "far_per_hour": 1.4387883887252837,
+      "median_latency_s": 0.0
+    },
+    {
+      "target_sens": 0.9,
+      "k_persist": 4,
+      "epoch_sensitivity": 0.8938547486033519,
+      "specificity": 0.9533366783743101,
+      "seizure_sensitivity": 0.9285714285714286,
+      "far_per_hour": 0.9087084560370213,
+      "median_latency_s": 0.0
+    }
+  ],
+  "recommended": {
+    "target_sens": 0.8,
+    "k_persist": 4,
+    "k_smooth": 1,
+    "epoch": {
+      "auc": 0.9786066876525941,
+      "sensitivity": 0.7877094972067039,
+      "specificity": 0.9857835758488042,
+      "precision": 0.6238938053097345,
+      "tp": 141,
+      "fp": 85,
+      "tn": 5894,
+      "fn": 38,
+      "f1": 0.6962962962962962
+    },
+    "three_class": {
+      "accuracy": 0.715492042871062,
+      "confusion_matrix": [
+        [
+          4139,
+          63,
+          948
+        ],
+        [
+          31,
+          141,
+          7
+        ],
+        [
+          697,
+          6,
+          126
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.8036893203883495,
+        "ictal": 0.7877094972067039,
+        "preictal": 0.1519903498190591
+      },
+      "macro_f1": 0.5610893445682016
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 0.9285714285714286,
+      "n_seizures": 14,
+      "detected": 13,
+      "false_alarms": 3,
+      "hours": 13.205555555555557,
+      "far_per_hour": 0.22717711400925533,
+      "median_latency_s": 3.0
+    }
+  }
+}

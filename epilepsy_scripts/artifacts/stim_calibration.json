@@ -1,0 +1,411 @@
+{
+  "n_trials": 35,
+  "model": {
+    "B": [
+      30.0,
+      31.0,
+      32.0,
+      33.0,
+      34.0,
+      35.0,
+      36.0,
+      37.0,
+      38.0,
+      39.0,
+      40.0,
+      41.0,
+      42.0,
+      43.0,
+      44.0,
+      45.0,
+      46.0
+    ],
+    "rel_low": [
+      0.9544418671247655,
+      0.955924339404285,
+      0.9555052019406004,
+      0.9515188957600439,
+      0.9410162001500053,
+      0.9164785646271553,
+      0.8870456262247064,
+      0.8192112559744498,
+      0.7503467166536435,
+      0.6393002193635289,
+      0.5211454760993975,
+      0.4090655537142996,
+      0.41509875086868425,
+      0.2975785602291316,
+      0.40953640124713475,
+      0.4576754007922292,
+      0.4810499097792749
+    ],
+    "aperiodic": [
+      -5.79650589602769,
+      -5.504728067950146,
+      -5.766143253905873,
+      -5.259850996561318,
+      -5.556970155829435,
+      -5.972063253219666,
+      -6.058006023786337,
+      -6.892316961385912,
+      -7.169169989836437,
+      -7.274076665663252,
+      -7.186884328413224,
+      -7.821653683002357,
+      -7.582672621311839,
+      -2.947734719091253,
+      -3.037435323386957,
+      -3.096471900396691,
+      -3.1399758814385876
+    ],
+    "dlogLow_dB": -0.0699449416609663,
+    "dAper_dB": 0.12194059998833812
+  },
+  "fit_lowpower": {
+    "slope": 0.05264097663178357,
+    "se": 0.024555211075718352,
+    "r": 0.3496315672783088,
+    "n": 35,
+    "p": 0.0395
+  },
+  "fit_aperiodic": {
+    "slope": 0.04248939082819694,
+    "se": 0.04994818069448862,
+    "r": 0.14648515599490228,
+    "n": 35,
+    "p": 0.401
+  },
+  "trials": [
+    {
+      "file": "sub-01_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 3.0,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 31,
+      "d_log_lowpower": 0.3768664834981496,
+      "d_aperiodic": 0.24186747073451453
+    },
+    {
+      "file": "sub-02_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 3.0,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 35,
+      "d_log_lowpower": 0.005471726222399588,
+      "d_aperiodic": 0.07756683439241141
+    },
+    {
+      "file": "sub-03_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.5,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 32,
+      "d_log_lowpower": -0.0011446916507570973,
+      "d_aperiodic": -0.12250657284053845
+    },
+    {
+      "file": "sub-03_ses-02_task-dcs_ieeg.vhdr",
+      "intensity_mA": 2.0,
+      "freq_hz": 50.0,
+      "effect": "blockage",
+      "n_channels": 31,
+      "d_log_lowpower": 0.026473430700846,
+      "d_aperiodic": -0.05413339077733159
+    },
+    {
+      "file": "sub-03_ses-03_task-dcs_ieeg.vhdr",
+      "intensity_mA": 2.0,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 33,
+      "d_log_lowpower": -0.13468519115264926,
+      "d_aperiodic": -0.13303188176103875
+    },
+    {
+      "file": "sub-03_ses-04_task-dcs_ieeg.vhdr",
+      "intensity_mA": 3.0,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 33,
+      "d_log_lowpower": -0.022528663010012738,
+      "d_aperiodic": 0.23088863850080732
+    },
+    {
+      "file": "sub-04_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.5,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 37,
+      "d_log_lowpower": 0.08205041796743039,
+      "d_aperiodic": -0.4740979441063655
+    },
+    {
+      "file": "sub-04_ses-02_task-dcs_ieeg.vhdr",
+      "intensity_mA": 2.0,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 37,
+      "d_log_lowpower": -0.0037654917588081046,
+      "d_aperiodic": -0.42202953545355903
+    },
+    {
+      "file": "sub-06_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.5,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 35,
+      "d_log_lowpower": -0.06916341150202523,
+      "d_aperiodic": -0.15943026832384932
+    },
+    {
+      "file": "sub-06_ses-02_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.5,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 35,
+      "d_log_lowpower": 0.044539962386410274,
+      "d_aperiodic": 0.04845282129476747
+    },
+    {
+      "file": "sub-07_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 2.0,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 32,
+      "d_log_lowpower": -0.0822398556021787,
+      "d_aperiodic": 0.02581778100089263
+    },
+    {
+      "file": "sub-07_ses-02_task-dcs_ieeg.vhdr",
+      "intensity_mA": 0.75,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 33,
+      "d_log_lowpower": -0.012658591464572409,
+      "d_aperiodic": 0.16049502531866255
+    },
+    {
+      "file": "sub-07_ses-03_task-dcs_ieeg.vhdr",
+      "intensity_mA": 3.0,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 25,
+      "d_log_lowpower": 0.06149311434184651,
+      "d_aperiodic": 0.013933884043830336
+    },
+    {
+      "file": "sub-08_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 37,
+      "d_log_lowpower": -0.12852300421924454,
+      "d_aperiodic": 0.14396614779956263
+    },
+    {
+      "file": "sub-08_ses-02_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 35,
+      "d_log_lowpower": 0.022349426459204243,
+      "d_aperiodic": -0.4673268436928082
+    },
+    {
+      "file": "sub-09_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 33,
+      "d_log_lowpower": 0.1501132597762381,
+      "d_aperiodic": -0.29104859964079144
+    },
+    {
+      "file": "sub-10_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 34,
+      "d_log_lowpower": -0.3341681813837928,
+      "d_aperiodic": -0.18776322804468082
+    },
+    {
+      "file": "sub-11_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 0.75,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 35,
+      "d_log_lowpower": -0.3208381574116873,
+      "d_aperiodic": 0.18930287066216245
+    },
+    {
+      "file": "sub-12_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 37,
+      "d_log_lowpower": -0.05801838932922769,
+      "d_aperiodic": -0.007501559930600976
+    },
+    {
+      "file": "sub-13_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 3.0,
+      "freq_hz": 43.0,
+      "effect": "blockage+deficit",
+      "n_channels": 32,
+      "d_log_lowpower": -0.17325563384390755,
+      "d_aperiodic": -0.17744866756486766
+    },
+    {
+      "file": "sub-14_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 43,
+      "d_log_lowpower": -0.004229241216299079,
+      "d_aperiodic": 0.043895172416314576
+    },
+    {
+      "file": "sub-15_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 0.6,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 56,
+      "d_log_lowpower": -0.15134708043087636,
+      "d_aperiodic": -0.19558889313274097
+    },
+    {
+      "file": "sub-15_ses-02_task-dcs_ieeg.vhdr",
+      "intensity_mA": 0.3,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 41,
+      "d_log_lowpower": 0.06056696926993558,
+      "d_aperiodic": -0.3883185650832839
+    },
+    {
+      "file": "sub-15_ses-03_task-dcs_ieeg.vhdr",
+      "intensity_mA": 0.3,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 52,
+      "d_log_lowpower": -0.007251024111017076,
+      "d_aperiodic": 0.7419520543177947
+    },
+    {
+      "file": "sub-15_ses-04_task-dcs_ieeg.vhdr",
+      "intensity_mA": 0.7,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 61,
+      "d_log_lowpower": -0.03497633412247475,
+      "d_aperiodic": -0.3866020864883115
+    },
+    {
+      "file": "sub-15_ses-05_task-dcs_ieeg.vhdr",
+      "intensity_mA": 0.25,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 40,
+      "d_log_lowpower": -0.10611019104282106,
+      "d_aperiodic": -0.2803873868156066
+    },
+    {
+      "file": "sub-16_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 2.0,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 41,
+      "d_log_lowpower": -0.1037764348612395,
+      "d_aperiodic": 0.1905183175143932
+    },
+    {
+      "file": "sub-16_ses-02_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 47,
+      "d_log_lowpower": -0.00048257541766044595,
+      "d_aperiodic": 0.2350666568792219
+    },
+    {
+      "file": "sub-17_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 0.6,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 69,
+      "d_log_lowpower": -0.14127276659725496,
+      "d_aperiodic": 0.15502898579186386
+    },
+    {
+      "file": "sub-18_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 63,
+      "d_log_lowpower": -0.2452748967452623,
+      "d_aperiodic": 0.026160822467610867
+    },
+    {
+      "file": "sub-20_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.5,
+      "freq_hz": 43.0,
+      "effect": "deficit",
+      "n_channels": 52,
+      "d_log_lowpower": -0.21239599955184052,
+      "d_aperiodic": -0.4455400331080023
+    },
+    {
+      "file": "sub-21_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 3.0,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 89,
+      "d_log_lowpower": 0.004308542363855764,
+      "d_aperiodic": 0.13296659370670794
+    },
+    {
+      "file": "sub-22_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 1.0,
+      "freq_hz": 50.0,
+      "effect": "blockage",
+      "n_channels": 147,
+      "d_log_lowpower": -0.08431794434281979,
+      "d_aperiodic": -0.1976350389480961
+    },
+    {
+      "file": "sub-23_ses-01_task-dcs_ieeg.vhdr",
+      "intensity_mA": 2.6,
+      "freq_hz": 50.0,
+      "effect": "deficit",
+      "n_channels": 101,
+      "d_log_lowpower": -0.06873399177504322,
+      "d_aperiodic": 0.24182829879697776
+    },
+    {
+      "file": "sub-23_ses-02_task-dcs_ieeg.vhdr",
+      "intensity_mA": 3.0,
+      "freq_hz": 50.0,
+      "effect": "slowing",
+      "n_channels": 176,
+      "d_log_lowpower": 0.20074049131872307,
+      "d_aperiodic": -0.06283260837803417
+    }
+  ],
+  "dBdI_low-band": {
+    "dBdI_mV_per_mA": -0.7526059123323361,
+    "gain_at_3mA_mV": -2.2578177369970085,
+    "ci": [
+      -1.440693035797142,
+      -0.0645187888675302
+    ]
+  },
+  "dBdI_aperiodic": {
+    "dBdI_mV_per_mA": 0.34844334727121606,
+    "gain_at_3mA_mV": 1.0453300418136482,
+    "ci": [
+      -0.45439372397954286,
+      1.151280418521975
+    ]
+  }
+}

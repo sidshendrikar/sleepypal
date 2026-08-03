@@ -1,0 +1,164 @@
+{
+  "calibration": {
+    "central": {
+      "dB_needed_mV": 16.78738804875988,
+      "i_clin_mA": 2.4,
+      "gain_mV": 20.98423506094985
+    },
+    "low_current_2.0mA": {
+      "dB_needed_mV": 16.78738804875988,
+      "i_clin_mA": 2.0,
+      "gain_mV": 25.18108207313982
+    },
+    "high_current_3.0mA": {
+      "dB_needed_mV": 16.78738804875988,
+      "i_clin_mA": 3.0,
+      "gain_mV": 16.78738804875988
+    }
+  },
+  "matched": {
+    "B_crit": 42.65465744009845,
+    "assumed_gain": null,
+    "rows": [
+      {
+        "gain_mV": 12.0,
+        "burden_s": 32.166666666666664,
+        "energy_mJ": 8.222412144959975,
+        "energy_saving_pct": 90.23930182222341,
+        "settled_current_mA": 3.0,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 15.0,
+        "burden_s": 9.1,
+        "energy_mJ": 7.670987475839987,
+        "energy_saving_pct": 90.8938895111122,
+        "settled_current_mA": 3.0,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 18.0,
+        "burden_s": 7.0,
+        "energy_mJ": 5.740231037589706,
+        "energy_saving_pct": 93.18586059165595,
+        "settled_current_mA": 2.823898385350561,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 20.0,
+        "burden_s": 7.266666666666667,
+        "energy_mJ": 4.731044851338711,
+        "energy_saving_pct": 94.3838498915739,
+        "settled_current_mA": 2.5201085468155053,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 22.0,
+        "burden_s": 7.166666666666667,
+        "energy_mJ": 3.9550073796126757,
+        "energy_saving_pct": 95.30507196152398,
+        "settled_current_mA": 2.315189588014096,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 25.0,
+        "burden_s": 6.866666666666667,
+        "energy_mJ": 2.755947875837297,
+        "energy_saving_pct": 96.72845693751547,
+        "settled_current_mA": 2.0644868374524044,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 28.0,
+        "burden_s": 7.133333333333334,
+        "energy_mJ": 2.373110128172723,
+        "energy_saving_pct": 97.18291770159966,
+        "settled_current_mA": 1.898648962011075,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 32.0,
+        "burden_s": 7.433333333333334,
+        "energy_mJ": 1.7688364242301857,
+        "energy_saving_pct": 97.90024166164532,
+        "settled_current_mA": 1.6798178417596905,
+        "clinically_consistent": true
+      }
+    ]
+  },
+  "mismatched": {
+    "B_crit": 42.65465576354771,
+    "assumed_gain": 22.0,
+    "rows": [
+      {
+        "gain_mV": 12.0,
+        "burden_s": 33.166666666666664,
+        "energy_mJ": 6.992503669499418,
+        "energy_saving_pct": 91.6993071349732,
+        "settled_current_mA": 3.0,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 15.0,
+        "burden_s": 11.733333333333334,
+        "energy_mJ": 6.449229886305457,
+        "energy_saving_pct": 92.34421903335152,
+        "settled_current_mA": 3.0,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 18.0,
+        "burden_s": 8.066666666666668,
+        "energy_mJ": 5.174047832889803,
+        "energy_saving_pct": 93.85796790967571,
+        "settled_current_mA": 2.6951893479625126,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 20.0,
+        "burden_s": 7.3,
+        "energy_mJ": 4.257642108643273,
+        "energy_saving_pct": 94.94581895935094,
+        "settled_current_mA": 2.445189347962512,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 22.0,
+        "burden_s": 7.166666666666667,
+        "energy_mJ": 3.955006424545887,
+        "energy_saving_pct": 95.30507309526898,
+        "settled_current_mA": 2.3151893479625127,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 25.0,
+        "burden_s": 7.466666666666668,
+        "energy_mJ": 3.3558514128747965,
+        "energy_saving_pct": 96.01632073495442,
+        "settled_current_mA": 2.289189347962513,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 28.0,
+        "burden_s": 6.533333333333334,
+        "energy_mJ": 2.8858956612842417,
+        "energy_saving_pct": 96.57419793294883,
+        "settled_current_mA": 2.289189347962513,
+        "clinically_consistent": true
+      },
+      {
+        "gain_mV": 32.0,
+        "burden_s": 6.8999999999999995,
+        "energy_mJ": 2.6060211279263243,
+        "energy_saving_pct": 96.90643265915716,
+        "settled_current_mA": 2.289189347962513,
+        "clinically_consistent": true
+      }
+    ]
+  },
+  "clinical_window_mA": [
+    1.5,
+    3.5
+  ],
+  "amp_max_mA": 3.0
+}

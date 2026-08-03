@@ -1,0 +1,365 @@
+{
+  "B_crit": 42.654332428762345,
+  "threshold": 0.023939812661219504,
+  "gain": 22.0,
+  "head_to_head": {
+    "no stimulation": {
+      "seizure_burden_s": 35.1,
+      "seizure_burden_s_sd": 0.0,
+      "burden_frac": 1.0,
+      "burden_frac_sd": 0.0,
+      "energy_mJ": 0.0,
+      "energy_mJ_sd": 0.0,
+      "duty_cycle": 0.0,
+      "duty_cycle_sd": 0.0,
+      "mean_power_uW": 0.0,
+      "mean_power_uW_sd": 0.0,
+      "peak_u": 0.0,
+      "peak_u_sd": 0.0,
+      "suppression_latency_s": 37.519999999999996,
+      "suppression_latency_s_sd": 0.11661903789690767,
+      "controller": "no stimulation"
+    },
+    "open-loop DBS": {
+      "seizure_burden_s": 0.0,
+      "seizure_burden_s_sd": 0.0,
+      "burden_frac": 0.0,
+      "burden_frac_sd": 0.0,
+      "energy_mJ": 8.423999999999955,
+      "energy_mJ_sd": 0.0,
+      "duty_cycle": 1.0,
+      "duty_cycle_sd": 0.0,
+      "mean_power_uW": 140.3999999999979,
+      "mean_power_uW_sd": 0.0,
+      "peak_u": 1.0,
+      "peak_u_sd": 0.0,
+      "suppression_latency_s": NaN,
+      "suppression_latency_s_sd": NaN,
+      "controller": "open-loop DBS"
+    },
+    "threshold aDBS (RNS-style)": {
+      "seizure_burden_s": 20.18,
+      "seizure_burden_s_sd": 0.13266499161421672,
+      "burden_frac": 0.5749287749287749,
+      "burden_frac_sd": 0.003779629390718422,
+      "energy_mJ": 4.408559999999987,
+      "energy_mJ_sd": 0.10317250796602657,
+      "duty_cycle": 0.5233333333333313,
+      "duty_cycle_sd": 0.012247448713915931,
+      "mean_power_uW": 73.47599999999909,
+      "mean_power_uW_sd": 1.7195417994337627,
+      "peak_u": 1.0,
+      "peak_u_sd": 0.0,
+      "suppression_latency_s": 0.4,
+      "suppression_latency_s_sd": 0.1788854381999832,
+      "controller": "threshold aDBS (RNS-style)"
+    },
+    "dual-threshold aDBS (Percept-style)": {
+      "seizure_burden_s": 28.78,
+      "seizure_burden_s_sd": 0.1599999999999997,
+      "burden_frac": 0.81994301994302,
+      "burden_frac_sd": 0.004558404558404581,
+      "energy_mJ": 2.6884549815123697,
+      "energy_mJ_sd": 0.019437806319900486,
+      "duty_cycle": 0.5886666666666648,
+      "duty_cycle_sd": 0.005312459150169762,
+      "mean_power_uW": 44.80758302520572,
+      "mean_power_uW_sd": 0.3239634386650045,
+      "peak_u": 1.0,
+      "peak_u_sd": 0.0,
+      "suppression_latency_s": 0.78,
+      "suppression_latency_s_sd": 0.2039607805437114,
+      "controller": "dual-threshold aDBS (Percept-style)"
+    },
+    "bifurcation MPC (this work)": {
+      "seizure_burden_s": 11.080000000000002,
+      "seizure_burden_s_sd": 1.0943491216243564,
+      "burden_frac": 0.3156695156695157,
+      "burden_frac_sd": 0.031178037653115553,
+      "energy_mJ": 2.76207515617876,
+      "energy_mJ_sd": 0.16286921933785264,
+      "duty_cycle": 0.7553333333333322,
+      "duty_cycle_sd": 0.051450083684199524,
+      "mean_power_uW": 46.03458593631222,
+      "mean_power_uW_sd": 2.7144869889641825,
+      "peak_u": 0.8470476841000213,
+      "peak_u_sd": 0.01200000000000001,
+      "suppression_latency_s": 1.1400000000000001,
+      "suppression_latency_s_sd": 1.4361058456812992,
+      "controller": "bifurcation MPC (this work)"
+    }
+  },
+  "pareto": {
+    "open-loop DBS": [
+      {
+        "param": 0.35,
+        "burden_s": 34.333333333333336,
+        "energy_mJ": 1.0319400000000118
+      },
+      {
+        "param": 0.45,
+        "burden_s": 33.6,
+        "energy_mJ": 1.70586000000001
+      },
+      {
+        "param": 0.55,
+        "burden_s": 32.1,
+        "energy_mJ": 2.5482599999999747
+      },
+      {
+        "param": 0.65,
+        "burden_s": 21.36666666666667,
+        "energy_mJ": 3.5591400000000206
+      },
+      {
+        "param": 0.8,
+        "burden_s": 0.0,
+        "energy_mJ": 5.391359999999996
+      },
+      {
+        "param": 1.0,
+        "burden_s": 0.0,
+        "energy_mJ": 8.423999999999955
+      }
+    ],
+    "threshold aDBS (RNS-style)": [
+      {
+        "param": 0.35,
+        "burden_s": 34.93333333333334,
+        "energy_mJ": 0.6455358000000039
+      },
+      {
+        "param": 0.45,
+        "burden_s": 34.199999999999996,
+        "energy_mJ": 1.0415223000000053
+      },
+      {
+        "param": 0.55,
+        "burden_s": 33.333333333333336,
+        "energy_mJ": 1.5742584000000026
+      },
+      {
+        "param": 0.65,
+        "burden_s": 29.76666666666667,
+        "energy_mJ": 2.0465054999999883
+      },
+      {
+        "param": 0.8,
+        "burden_s": 21.933333333333337,
+        "energy_mJ": 2.8065024000000136
+      },
+      {
+        "param": 1.0,
+        "burden_s": 20.233333333333334,
+        "energy_mJ": 4.347719999999988
+      }
+    ],
+    "dual-threshold aDBS (Percept-style)": [
+      {
+        "param": 0.35,
+        "burden_s": 35.1,
+        "energy_mJ": 0.6153064734307269
+      },
+      {
+        "param": 0.45,
+        "burden_s": 34.86666666666667,
+        "energy_mJ": 1.0074370138353659
+      },
+      {
+        "param": 0.55,
+        "burden_s": 34.5,
+        "energy_mJ": 1.4824719328581242
+      },
+      {
+        "param": 0.65,
+        "burden_s": 33.63333333333333,
+        "energy_mJ": 1.8339016048079617
+      },
+      {
+        "param": 0.8,
+        "burden_s": 30.600000000000005,
+        "energy_mJ": 1.9320421287414986
+      },
+      {
+        "param": 1.0,
+        "burden_s": 28.8,
+        "energy_mJ": 2.6769927025206144
+      }
+    ],
+    "bifurcation MPC (this work)": [
+      {
+        "param": 1.0,
+        "burden_s": 12.200000000000001,
+        "energy_mJ": 2.736266913307436
+      },
+      {
+        "param": 1.02,
+        "burden_s": 11.333333333333334,
+        "energy_mJ": 2.721851031979791
+      },
+      {
+        "param": 1.05,
+        "burden_s": 10.666666666666666,
+        "energy_mJ": 2.728943590813936
+      },
+      {
+        "param": 1.1,
+        "burden_s": 11.033333333333333,
+        "energy_mJ": 2.9410119659723066
+      },
+      {
+        "param": 1.15,
+        "burden_s": 9.666666666666666,
+        "energy_mJ": 2.8761944416598446
+      },
+      {
+        "param": 1.25,
+        "burden_s": 9.666666666666666,
+        "energy_mJ": 2.881354151519997
+      }
+    ]
+  },
+  "severity": {
+    "24.0": {
+      "no stimulation": {
+        "burden_s": 35.1,
+        "energy_mJ": 0.0
+      },
+      "open-loop DBS": {
+        "burden_s": 0.0,
+        "energy_mJ": 8.423999999999955
+      },
+      "threshold aDBS (RNS-style)": {
+        "burden_s": 22.233333333333334,
+        "energy_mJ": 4.417919999999987
+      },
+      "dual-threshold aDBS (Percept-style)": {
+        "burden_s": 30.133333333333336,
+        "energy_mJ": 3.232406262066871
+      },
+      "bifurcation MPC (this work)": {
+        "burden_s": 11.733333333333334,
+        "energy_mJ": 4.594523038019957
+      }
+    },
+    "26.0": {
+      "no stimulation": {
+        "burden_s": 35.1,
+        "energy_mJ": 0.0
+      },
+      "open-loop DBS": {
+        "burden_s": 0.0,
+        "energy_mJ": 8.423999999999955
+      },
+      "threshold aDBS (RNS-style)": {
+        "burden_s": 21.233333333333334,
+        "energy_mJ": 4.366439999999987
+      },
+      "dual-threshold aDBS (Percept-style)": {
+        "burden_s": 29.133333333333336,
+        "energy_mJ": 2.9850687345554334
+      },
+      "bifurcation MPC (this work)": {
+        "burden_s": 10.800000000000002,
+        "energy_mJ": 3.5770302480357206
+      }
+    },
+    "28.0": {
+      "no stimulation": {
+        "burden_s": 35.1,
+        "energy_mJ": 0.0
+      },
+      "open-loop DBS": {
+        "burden_s": 0.0,
+        "energy_mJ": 8.423999999999955
+      },
+      "threshold aDBS (RNS-style)": {
+        "burden_s": 20.233333333333334,
+        "energy_mJ": 4.347719999999988
+      },
+      "dual-threshold aDBS (Percept-style)": {
+        "burden_s": 28.8,
+        "energy_mJ": 2.6769927025206144
+      },
+      "bifurcation MPC (this work)": {
+        "burden_s": 10.666666666666666,
+        "energy_mJ": 2.728943590813936
+      }
+    },
+    "32.0": {
+      "no stimulation": {
+        "burden_s": 35.1,
+        "energy_mJ": 0.0
+      },
+      "open-loop DBS": {
+        "burden_s": 0.0,
+        "energy_mJ": 8.423999999999955
+      },
+      "threshold aDBS (RNS-style)": {
+        "burden_s": 20.766666666666666,
+        "energy_mJ": 4.06223999999999
+      },
+      "dual-threshold aDBS (Percept-style)": {
+        "burden_s": 27.333333333333332,
+        "energy_mJ": 2.3151247681916804
+      },
+      "bifurcation MPC (this work)": {
+        "burden_s": 11.700000000000001,
+        "energy_mJ": 1.527830894464776
+      }
+    },
+    "36.0": {
+      "no stimulation": {
+        "burden_s": 35.1,
+        "energy_mJ": 0.0
+      },
+      "open-loop DBS": {
+        "burden_s": 0.0,
+        "energy_mJ": 8.423999999999955
+      },
+      "threshold aDBS (RNS-style)": {
+        "burden_s": 21.266666666666666,
+        "energy_mJ": 3.8141999999999925
+      },
+      "dual-threshold aDBS (Percept-style)": {
+        "burden_s": 26.933333333333337,
+        "energy_mJ": 1.9557131475577334
+      },
+      "bifurcation MPC (this work)": {
+        "burden_s": 11.766666666666667,
+        "energy_mJ": 0.660100464904636
+      }
+    }
+  },
+  "bhat_error": {
+    "-8.0": {
+      "burden_s": 9.666666666666666,
+      "energy_mJ": 2.881354151519997
+    },
+    "-4.0": {
+      "burden_s": 9.666666666666666,
+      "energy_mJ": 2.8738690712999517
+    },
+    "-2.0": {
+      "burden_s": 10.533333333333333,
+      "energy_mJ": 2.9243161669455184
+    },
+    "0.0": {
+      "burden_s": 10.666666666666666,
+      "energy_mJ": 2.728943590813936
+    },
+    "2.0": {
+      "burden_s": 12.233333333333334,
+      "energy_mJ": 2.7636899308260774
+    },
+    "4.0": {
+      "burden_s": 12.300000000000002,
+      "energy_mJ": 2.6735650650679617
+    },
+    "8.0": {
+      "burden_s": 13.4,
+      "energy_mJ": 2.542277406228987
+    }
+  },
+  "runtime_s": 18.6
+}

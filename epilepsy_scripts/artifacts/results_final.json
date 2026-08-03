@@ -1,0 +1,113 @@
+{
+  "patients": [
+    "chb01"
+  ],
+  "n_epochs": 2978,
+  "n_ictal": 93,
+  "winner": "mean",
+  "runtime_s": 2239.9,
+  "twin": {
+    "B_fit": 42.63630649892054,
+    "B_crit": 42.56849303093131,
+    "B_on": 21.45540671805813,
+    "B_target": 51.08219163711757,
+    "suppression_pct": 95.90648928804373,
+    "distance_to_bifurcation": -0.06781346798923238
+  },
+  "mean": {
+    "binary": {
+      "sensitivity": 0.6989247311827957,
+      "specificity": 0.9428076256499134,
+      "precision": 0.2826086956521739,
+      "auc": 0.9391103408434431,
+      "tp": 65,
+      "fp": 165,
+      "tn": 2720,
+      "fn": 28,
+      "f1": 0.4024767801857585
+    },
+    "three_class": {
+      "accuracy": 0.6568166554734721,
+      "confusion_matrix": [
+        [
+          1775,
+          73,
+          622
+        ],
+        [
+          18,
+          74,
+          1
+        ],
+        [
+          305,
+          3,
+          107
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.7186234817813765,
+        "ictal": 0.7956989247311828,
+        "preictal": 0.25783132530120484
+      },
+      "macro_f1": 0.5243661400934762
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 0.8571428571428571,
+      "n_seizures": 7,
+      "detected": 6,
+      "false_alarms": 8,
+      "hours": 6.3819444444444455,
+      "far_per_hour": 1.253536452665941,
+      "median_latency_s": 6.5
+    }
+  },
+  "multi": {
+    "binary": {
+      "sensitivity": 0.5591397849462365,
+      "specificity": 0.9854419410745234,
+      "precision": 0.5531914893617021,
+      "auc": 0.9194946050204059,
+      "tp": 52,
+      "fp": 42,
+      "tn": 2843,
+      "fn": 41,
+      "f1": 0.5561497326203209
+    },
+    "three_class": {
+      "accuracy": 0.7196104768300873,
+      "confusion_matrix": [
+        [
+          1963,
+          46,
+          461
+        ],
+        [
+          29,
+          59,
+          5
+        ],
+        [
+          291,
+          3,
+          121
+        ]
+      ],
+      "recalls": {
+        "interictal": 0.7947368421052632,
+        "ictal": 0.6344086021505376,
+        "preictal": 0.29156626506024097
+      },
+      "macro_f1": 0.5515287571134552
+    },
+    "seizure_level": {
+      "seizure_sensitivity": 0.7142857142857143,
+      "n_seizures": 7,
+      "detected": 5,
+      "false_alarms": 7,
+      "hours": 6.3819444444444455,
+      "far_per_hour": 1.0968443960826983,
+      "median_latency_s": 10.0
+    }
+  }
+}

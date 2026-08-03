@@ -1,0 +1,32 @@
+{
+  "g_stim_mV": 100,
+  "vs_continuous_energy_pct": 83.0089022281891,
+  "vs_threshold_energy_pct": -11.587769954989358,
+  "vs_threshold_burden_delta": -0.9200000000000088,
+  "table": {
+    "no stimulation": {
+      "burden_s": 35.1,
+      "energy_mJ": 0.0,
+      "duty": 0.0,
+      "peak_u": 0.0
+    },
+    "open-loop DBS": {
+      "burden_s": 32.059999999999995,
+      "energy_mJ": 84.24000000001008,
+      "duty": 1.0,
+      "peak_u": 1.0
+    },
+    "threshold aDBS (RNS-style)": {
+      "burden_s": 32.519999999999996,
+      "energy_mJ": 12.826943999999918,
+      "duty": 0.15226666666664793,
+      "peak_u": 1.0
+    },
+    "bifurcation MPC (this work)": {
+      "burden_s": 33.440000000000005,
+      "energy_mJ": 14.313300762975217,
+      "duty": 0.45319999999993826,
+      "peak_u": 1.0
+    }
+  }
+}
